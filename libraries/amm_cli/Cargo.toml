@@ -13,7 +13,7 @@ serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-
     "client",
     "no-entrypoint",
 ] }
-raydium_amm = { git = "https://github.com/raydium-io/raydium-amm", default-features = false, features = [
+raydium_amm = { path = "../programs/raydium-amm/program", default-features = false, features = [
     "client",
     "no-entrypoint",
 ] }
